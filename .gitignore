@@ -23,6 +23,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
 amplify/.config/local-*
@@ -30,12 +31,21 @@ amplify/logs
 amplify/mock-data
 amplify/backend/amplify-meta.json
 amplify/backend/.temp
+=======
+#amplify
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/mock-data
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+>>>>>>> 4aa4ffacf7268ce3b552c4d3d9c2a9c815af37a4
 build/
 dist/
 node_modules/
 aws-exports.js
 awsconfiguration.json
 amplifyconfiguration.json
+<<<<<<< HEAD
 amplifyconfiguration.dart
 amplify-build-config.json
 amplify-gradle-config.json
@@ -43,3 +53,8 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
+=======
+amplify-build-config.json
+amplify-gradle-config.json
+amplifytools.xcconfig
+>>>>>>> 4aa4ffacf7268ce3b552c4d3d9c2a9c815af37a4
