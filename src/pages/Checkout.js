@@ -18,14 +18,7 @@ const Checkout = () => {
                 </Elements>
             </AmplifyAuthenticator>
         </section>
-<<<<<<< HEAD
     );
 };
 
 export default Checkout;
-=======
-    )
-}
-
-export default Checkout
->>>>>>> 4aa4ffacf7268ce3b552c4d3d9c2a9c815af37a4
