@@ -1,0 +1,16 @@
+{
+  "resourceName": "BookImages",
+  "policyUUID": "f15e8b4b",
+  "bucketName": "nile0cc5f7ef08ee48ddae8b888337438aae",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

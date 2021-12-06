@@ -1,0 +1,31 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nile-prod-174904-authRole",
+      "UnauthRoleArn": "arn:aws:iam::252369173231:role/amplify-nile-prod-174904-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::252369173231:role/amplify-nile-prod-174904-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-nile-prod-174904-deployment",
+      "UnauthRoleName": "amplify-nile-prod-174904-unauthRole",
+      "StackName": "amplify-nile-prod-174904",
+      "StackId": "arn:aws:cloudformation:us-east-2:252369173231:stack/amplify-nile-prod-174904/8d4cbe60-561d-11ec-89c7-02e4bd427496",
+      "AmplifyAppId": "d2k8c1k7rnyl44"
+    },
+    "categories": {
+      "auth": {
+        "nile7e5c5bc0": {},
+        "true": {}
+      },
+      "function": {
+        "createOrder": {
+          "deploymentBucketName": "amplify-nile-prod-174904-deployment",
+          "s3Key": "amplify-builds/createOrder-55326b3154492b734344-build.zip"
+        },
+        "processPayment": {
+          "deploymentBucketName": "amplify-nile-prod-174904-deployment",
+          "s3Key": "amplify-builds/processPayment-43795136566b75574d37-build.zip"
+        }
+      }
+    }
+  }
+}

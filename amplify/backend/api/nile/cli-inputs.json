@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "nile",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/sab0taj/Desktop/PersonalProjects/Nile/amplify/backend/api/nile/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authnile7e5c5bc0"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 365,
+        "apiKeyExpirationDate": "2022-12-05T22:57:28.453Z",
+        "keyDescription": "Guest user access to books"
+      }
+    ]
+  }
+}

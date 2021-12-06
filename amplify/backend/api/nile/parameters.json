@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "nile",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authnile7e5c5bc0",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
